@@ -9,8 +9,6 @@
 listA = [3, 4, 9, 6, 1]
 listB = []
 
-i = 0
-
 for num in listA:
     count = 0
     for i in range(listA.index(num), len(listA)):
