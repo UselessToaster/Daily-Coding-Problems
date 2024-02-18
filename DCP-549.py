@@ -1,4 +1,5 @@
 # This problem was asked by Google.
+# Rating: Hard
 
 # Given an array of integers where every integer occurs 
 # three times except for one integer, which only occurs once, 
