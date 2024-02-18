@@ -33,8 +33,6 @@ for i in range(len(smplList)):                 #iterates over indecies rather th
         maxXOR = max(maxXOR, xorResult)
 
 print("Max XOR of given list: ", maxXOR)
-
-
 # With this exercise I have relearned:
 # - the difference in effectiveness between <for [element] in [list]:> vs <for [number] in range():>
 # - the bounds of the range() function
