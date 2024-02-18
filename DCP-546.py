@@ -31,4 +31,3 @@ print(listB)
 
 # Changes:
 # - Removed unecessary compount if clause by referring to list values by index instead of element
-
