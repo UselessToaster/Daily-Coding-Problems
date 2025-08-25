@@ -6,6 +6,7 @@ return true since 10 + 7 is 17.
 
 Bonus: Can you do this in one pass?'''
 
+#first iteration without revision
 def sum():
     nums = [10, 15, 3, 7]
     k = 17
@@ -13,19 +14,18 @@ def sum():
     flag = False
     for i in range(0, len(nums)):
         val = nums[i]
-        #print(f"val = {val}")
+        #print(f"val = {val}")    #DEBUG
         for j in range(i + 1, len(nums)):
             nxt_val = nums[j]
-            #print(f"nxt_val = {nxt_val}")
+            #print(f"nxt_val = {nxt_val}")    #DEBUG
             sum_val = val + nxt_val
-            #print(f"sum_val = {sum_val} | k = {k}")
+            #print(f"sum_val = {sum_val} | k = {k}")    #DEBUG
             if sum_val == k:
                 flag = True
                 break
         if flag == True:
             print(flag)
             break
-
 sum()
 
 #revised version
@@ -39,4 +39,5 @@ def two_sum(nums, k):
     return False
 
 outcome = two_sum([10, 15, 3, 7], 17)
+
 print(outcome)
