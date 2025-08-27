@@ -1,6 +1,6 @@
-'''Good morning! Here's your coding interview problem for today.
-
+'''
 This problem was asked by Uber.
+Difficulty: Hard
 
 Given an array of integers, return a new array such that each element 
 at index i of the new array is the product of all the numbers in the 
@@ -39,12 +39,13 @@ def w_out_div(array1):
     for elem in array1:                     #iterate through array
         product = 1
 
-        for i in range(0, len(array1)):     #get product of all values not equal to outer loop iterator
-            if array1[i] != elem:           
-                product *= array1[i]
+        for elem2 in array1:                #get product of all values not equal to outer loop iterator
+            if elem2 != elem:           
+                product *= elem2
 
         new_arr.append(product)             #add product to new array
     
     return(new_arr)
+
 
 main()
