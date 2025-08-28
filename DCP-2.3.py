@@ -1,4 +1,5 @@
 '''This problem was asked by Google.
+Difficulty: Medium
 
 Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, 
 and deserialize(s), which deserializes the string back into the tree.
@@ -97,3 +98,4 @@ main()
 # I was trying to deconstruct the process of a recursive function but if I
 #   just understood how they work this question would be a lot easier for me.
 # This solution was pretty much derrived from AI but I will not forget what i learned here
+
