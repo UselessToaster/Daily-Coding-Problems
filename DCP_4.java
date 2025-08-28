@@ -40,3 +40,13 @@ class DCP_4 {
         return count;                   //returns next consecutive number if all positive ints are accounted for
    }
 }
+
+
+/*Notes:
+This one was a fun challenge honestly. I worry that im approaching this java code from a pythonic perspective rather than 
+attacking it in a way that's more java like. 
+
+At first i tried to use the itterate variable in the for loop as the counter but it turned into a while loop 
+so i reverted to the for-each loop which is similar to how I approached this problem in python.
+*/
+
